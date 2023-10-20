@@ -2,7 +2,7 @@
 Create a program that asks the user their budget in the following months: January, February and March. 
 And get the average of the three months.
 
-Make prompt validations
+Make prompt validations.
 '''
 
 january_budget = None
