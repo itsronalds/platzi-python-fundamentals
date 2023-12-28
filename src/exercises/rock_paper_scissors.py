@@ -1,7 +1,7 @@
 import random
 
 user_lives = 3
-pc_lives = 3
+computer_lives = 3
 
 while True:
     user_input = input('''
@@ -25,7 +25,7 @@ while True:
         continue
     elif (user_input == 1 and pc_input == 3) or (user_input == 2 and pc_input == 1) or (user_input == 3 and pc_input == 2):
         print('\nYou win!')
-        pc_lives -= 1
+        computer_lives -= 1
     else:
         print('\nYou lose!')
         user_lives -= 1
@@ -34,6 +34,6 @@ while True:
     if user_lives == 0:
         print('\nYou lose the game!')
         break
-    elif pc_lives == 0:
+    elif computer_lives == 0:
         print('\nYou win the game!')
         break
